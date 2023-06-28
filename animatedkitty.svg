@@ -25,11 +25,11 @@
             transform: translateY(1%);
           }
           33% {
-            fill: yellow;
+            fill: red;
             transform: translateY(2%);
           }
           50% {
-            fill: orange;
+            fill: red;
             transform: translateY(2.5%);
           }
           67% {
