@@ -1,3 +1,3 @@
 #teste
  
- <img src='animatedkitty2.svg' width='400' />
+ <img src='animatedkitty.svg' width='400' />
