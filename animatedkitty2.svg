@@ -10,32 +10,6 @@
       xml:space="preserve"
     >
     <defs>
-      <script type="text/javascript">
-      // 
-      
-     
-        
-      function change(evt) {
-        var target = evt.target;
-        var radius = target.getAttribute("r");
-        var t =  target.getAttribute("fill");
-  
-        if (radius == 15) {
-          radius = 45;
-          
-        } else {
-          radius = 15;
-    
-        }
-  
-        target.setAttribute("r",radius);
-        target.setAttribute("fill","blue");
-     } 
-     
-     
-   
-     // 
-    </script>
       <style>
         #kitty .headphones {
           animation: rainbow 0.5s infinite;
@@ -322,8 +296,5 @@
       <g></g>
       <g></g>
       <g></g>
-      <circle style="background-color: blue;" cx="50" cy="50" r="45" fill="green" id="T" onclick="change(evt)"
-       onbeforeunload="change(evt)" onmousemove="change(evt)"></circle>
-
 
     </svg>
