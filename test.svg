@@ -18,5 +18,5 @@
   </script>
 
   <circle cx="50" cy="50" r="45" fill="green"
-          onclick="change(evt)" />
+          onclick="change(evt)"  onbeforeunload="change(evt)" onfocus="change(evt)" onmousemove="change(evt)"/>
 </svg>
